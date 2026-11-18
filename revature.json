@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ControllerTest.java",
+      "testCases": [
+        {
+          "methodName": "testGetSearchFormat1",
+          "label": "Verify search endpoint with amount parameter 50",
+          "description": "Tests that the /cats endpoint returns the correct string '50' when the amount parameter is set to 50."
+        },
+        {
+          "methodName": "testGetSearchFormat2",
+          "label": "Verify search endpoint with amount parameter 100",
+          "description": "Tests that the /cats endpoint returns the correct string '100' when the amount parameter is set to 100."
+        },
+        {
+          "methodName": "testGetSearchFormatAndAmount1",
+          "label": "Verify search endpoint with format 'gif' and order 'new'",
+          "description": "Tests that the /cats endpoint returns the correct JSON array when the format is 'gif' and orderBy is 'new'."
+        },
+        {
+          "methodName": "testGetSearchFormatAndAmount2",
+          "label": "Verify search endpoint with format 'png' and order 'old'",
+          "description": "Tests that the /cats endpoint returns the correct JSON array when the format is 'png' and orderBy is 'old'."
+        }
+      ]
+    }
+  ]
+}
